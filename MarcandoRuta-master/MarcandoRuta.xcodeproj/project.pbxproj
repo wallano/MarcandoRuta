@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1F2E071DA8174400788323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1F2E061DA8174400788323 /* AppDelegate.swift */; };
+		EA1F2E091DA8174400788323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1F2E081DA8174400788323 /* ViewController.swift */; };
+		EA1F2E0C1DA8174400788323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1F2E0A1DA8174400788323 /* Main.storyboard */; };
+		EA1F2E0F1DA8174400788323 /* MarcandoRuta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA1F2E0D1DA8174400788323 /* MarcandoRuta.xcdatamodeld */; };
+		EA1F2E111DA8174400788323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1F2E101DA8174400788323 /* Assets.xcassets */; };
+		EA1F2E141DA8174400788323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1F2E121DA8174400788323 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1F2E031DA8174400788323 /* MarcandoRuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcandoRuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1F2E061DA8174400788323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA1F2E081DA8174400788323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA1F2E0B1DA8174400788323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1F2E0E1DA8174400788323 /* MarcandoRuta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarcandoRuta.xcdatamodel; sourceTree = "<group>"; };
+		EA1F2E101DA8174400788323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1F2E131DA8174400788323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1F2E151DA8174400788323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1F2E001DA8174400788323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1F2DFA1DA8174400788323 = {
+			isa = PBXGroup;
+			children = (
+				EA1F2E051DA8174400788323 /* MarcandoRuta */,
+				EA1F2E041DA8174400788323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1F2E041DA8174400788323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1F2E031DA8174400788323 /* MarcandoRuta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1F2E051DA8174400788323 /* MarcandoRuta */ = {
+			isa = PBXGroup;
+			children = (
+				EA1F2E061DA8174400788323 /* AppDelegate.swift */,
+				EA1F2E081DA8174400788323 /* ViewController.swift */,
+				EA1F2E0A1DA8174400788323 /* Main.storyboard */,
+				EA1F2E101DA8174400788323 /* Assets.xcassets */,
+				EA1F2E121DA8174400788323 /* LaunchScreen.storyboard */,
+				EA1F2E151DA8174400788323 /* Info.plist */,
+				EA1F2E0D1DA8174400788323 /* MarcandoRuta.xcdatamodeld */,
+			);
+			path = MarcandoRuta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1F2E021DA8174400788323 /* MarcandoRuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1F2E181DA8174400788323 /* Build configuration list for PBXNativeTarget "MarcandoRuta" */;
+			buildPhases = (
+				EA1F2DFF1DA8174400788323 /* Sources */,
+				EA1F2E001DA8174400788323 /* Frameworks */,
+				EA1F2E011DA8174400788323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarcandoRuta;
+			productName = MarcandoRuta;
+			productReference = EA1F2E031DA8174400788323 /* MarcandoRuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1F2DFB1DA8174400788323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jesus Manuel Porras";
+				TargetAttributes = {
+					EA1F2E021DA8174400788323 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7X34A5KRL9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA1F2DFE1DA8174400788323 /* Build configuration list for PBXProject "MarcandoRuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1F2DFA1DA8174400788323;
+			productRefGroup = EA1F2E041DA8174400788323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1F2E021DA8174400788323 /* MarcandoRuta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1F2E011DA8174400788323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1F2E141DA8174400788323 /* LaunchScreen.storyboard in Resources */,
+				EA1F2E111DA8174400788323 /* Assets.xcassets in Resources */,
+				EA1F2E0C1DA8174400788323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1F2DFF1DA8174400788323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1F2E091DA8174400788323 /* ViewController.swift in Sources */,
+				EA1F2E0F1DA8174400788323 /* MarcandoRuta.xcdatamodeld in Sources */,
+				EA1F2E071DA8174400788323 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA1F2E0A1DA8174400788323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1F2E0B1DA8174400788323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1F2E121DA8174400788323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1F2E131DA8174400788323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1F2E161DA8174400788323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA1F2E171DA8174400788323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1F2E191DA8174400788323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X34A5KRL9;
+				INFOPLIST_FILE = MarcandoRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.jmpv.MarcandoRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA1F2E1A1DA8174400788323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X34A5KRL9;
+				INFOPLIST_FILE = MarcandoRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.jmpv.MarcandoRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1F2DFE1DA8174400788323 /* Build configuration list for PBXProject "MarcandoRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1F2E161DA8174400788323 /* Debug */,
+				EA1F2E171DA8174400788323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1F2E181DA8174400788323 /* Build configuration list for PBXNativeTarget "MarcandoRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1F2E191DA8174400788323 /* Debug */,
+				EA1F2E1A1DA8174400788323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA1F2E0D1DA8174400788323 /* MarcandoRuta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA1F2E0E1DA8174400788323 /* MarcandoRuta.xcdatamodel */,
+			);
+			currentVersion = EA1F2E0E1DA8174400788323 /* MarcandoRuta.xcdatamodel */;
+			path = MarcandoRuta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA1F2DFB1DA8174400788323 /* Project object */;
+}
